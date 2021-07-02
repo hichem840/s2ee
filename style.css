@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;sss
+  }
+  
+  h1 {
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    font-family: bondie;
+    margin-top: 30%;
+    margin-left: 50%;
+    transform: translateY(-50%) translateX(50%);
+  }
+  .navbar {
+    position: relative;
+    background-color: #020218;
+    height: 40px;
+    width: 100%;
+    z-index: 100;
+  }
+  .option {
+    margin-top: 50%
+    background-color: ;
+    color: #020218;
+    border: 2px solid #69ffc9;
+    background: #69ffc9;
+    border-radius: 5px;
+  }
+  img {
+    position: absolute;
+    text-align: left;
+    left: 0%;
+    top: 0%;
+    transform: translateX(-100%);
+    transform: translateY(-20%);
+    transform: translate(-205px, -120px);
+    height: 550px;
+  }
+  body {
+    position: relative;
+    background-color: #000021;
+    height: 20%;
+  }
+  
