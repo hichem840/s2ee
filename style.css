@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #04041d;
+  height: 40px;
+  width: 100%;
+}
+img {
+  position: absolute;
+  height: 700px;
+  width: 700px;
+  left: 0%;
+  top: 0%;
+  transform: translate(-215px, -165px);
+  z-index: -1;
+}
+body {
+  position: relative;
+  background-color: #000021;
+}
