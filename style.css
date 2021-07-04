@@ -8,6 +8,29 @@
   height: 40px;
   width: 100%;
 }
+@font-face {
+  font-family: "font-1";
+  src: url(Bondie\ Demo\ Regular.otf);
+}
+@font-face {
+  font-family: "font-2";
+  src: url(Bondie\ Demo\ Outline.otf);
+}
+h1 {
+  position: relative;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  font-family: "font-1", serif;
+  text-transform: uppercase;
+  transform: upp;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  transform: translate(0, -250px);
+  color: white;
+}
+
 img {
   position: absolute;
   height: 700px;
@@ -17,7 +40,71 @@ img {
   transform: translate(-215px, -165px);
   z-index: -1;
 }
+
+nav ul {
+  display: flex;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  cursor: pointer;
+  height: 27px;
+  width: 80px;
+  text-align: center;
+  background-color: #69ffc9;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  margin-right: 22px;
+  margin-top: 7px;
+  border-radius: 5px;
+}
+nav ul li a {
+  display: block;
+  margin-top: 10px;
+  padding: 0px 10px;
+  transform: translateY(-50%);
+  text-decoration: none;
+  height: 15px;
+  color: #000021;*
+  font-family: "font-2";
+}
+/* nav ul li :hover {
+  height: 30px;
+  min-width: 100px;
+  transition: 0.2ms;
+  color: white;
+} */
+/* nav ul li {
+  animation: label1 1s infinite linear;
+}
+@keyframes label1 {
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
 body {
   position: relative;
   background-color: #000021;
+  overflow: hidden;
 }
+
+.main {
+  background-color: white;
+  height: 27px;
+}
+.whypart {
+  min-width: 150px;
+}
+.about {
+  width: 100px;
+}
+
