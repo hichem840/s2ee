@@ -4,7 +4,7 @@
 }
 
 .navbar {
-  background-color: #04041d;
+  background-color: #08082a;
   height: 40px;
   width: 100%;
 }
@@ -94,7 +94,7 @@ nav ul li a {
 body {
   position: relative;
   background-color: #000021;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .main {
@@ -107,4 +107,35 @@ body {
 .about {
   width: 100px;
 }
+@media screen and (max-width: 880px) {
+img{
+  height: 700px;
+  width:400px;
+  transform: translate(-200px,-165px);
+}
+h1{
+  font-size:60px;
+  left:20%;
+  top: 80%;
+  transform: translate(-130px,70px);
+  margin-top: 90%;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right:5px ;
+  display: none;
 
+}
+
+/* img {
+  position: absolute;
+  height: 700px;
+  width: 700px;
+  left: 0%;
+  top: 0%;
+  transform: translate(-215px, -165px);
+  z-index: -1;
+} */
